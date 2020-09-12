@@ -1,0 +1,19 @@
+.Howto{
+    background-color: blue;
+}
+.start{
+    background-color: dodgerBlue;
+}
+body{
+    background-color: brown;
+}
+ul{
+    list-style-type: decimal;
+}
+li::before {
+    content: "▷"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+  }
+  .ending{
+      background-color: chartreuse;
+  }
